@@ -1,8 +1,8 @@
 {
   "name": "ts-utils-format-and-validation-values",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple validation and format values for whatever utilizations ",
-  "main": "index.ts",
+  "main": "index.js",
   "dependencies": {
     "moment": "^2.24.0"
   },
