@@ -1,0 +1,29 @@
+{
+  "name": "ts-utils-format-and-validation-values",
+  "version": "0.0.1",
+  "description": "A simple validation and format values for whatever utilizations ",
+  "main": "index.ts",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test -g "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciomsdev/ts-utils-format-and-validate-values.git"
+  },
+  "keywords": [
+    "Format",
+    "Utils",
+    "Validation",
+    "Brazil"
+  ],
+  "author": "Fabricio Magalhães Sena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabriciomsdev/ts-utils-format-and-validate-values/issues"
+  },
+  "homepage": "https://github.com/fabriciomsdev/ts-utils-format-and-validate-values#readme"
+}
