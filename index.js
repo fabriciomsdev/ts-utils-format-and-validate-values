@@ -1,4 +1,6 @@
 import * as moment from 'moment';
+import * as cpfValidation from 'cpf-validation';
+import * as cnpjValidation from 'cnpj-validation';
 
 export const formatPriceMasked = (price) => {
     price = String(price).replace(',', '.');
@@ -28,13 +30,10 @@ export const removeSpecialCaracthersAndSpace = (string) => {
     return String(string).replace(/[^\w\s]/gi, "").replace(' ', '');
 }
 
-// Função para retirar os espaços em branco do início e do fim da string.
-export const trim = (strTexto) => {
-    // Substitúi os espaços vazios no inicio e no fim da string por vazio.
-    return strTexto.replace(/^s+|s+$/g, '');
-}
 
-// Função para validação de CEP.
+export const trim = strTexto => strTexto.replace(/^s+|s+$/g, '');
+
+
 export const isCEP = (strCEP, blnVazio = false) => {
     const cepIsValid = strCEP != '' && strCEP != null && strCEP.length > 6;
 
@@ -53,3 +52,7 @@ export const isCEP = (strCEP, blnVazio = false) => {
     else
         return blnVazio;
 }
+
+export const isCPFValid = (cpf) => cpfValidation.validateCPF(cpf);
+
+export const isCNPJValid = (cnpj) => cnpjValidation.validateCNPJ(cnpj);

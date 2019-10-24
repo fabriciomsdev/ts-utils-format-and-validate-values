@@ -4,6 +4,8 @@
   "description": "A simple validation and format values for whatever utilizations ",
   "main": "index.js",
   "dependencies": {
+    "cnpj-validation": "^1.0.0",
+    "cpf-validation": "^1.0.0",
     "moment": "^2.24.0"
   },
   "devDependencies": {},
