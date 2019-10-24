@@ -55,3 +55,7 @@ export const isCEP = (strCEP, blnVazio = false) => {
 export const isCPFValid = (cpf) => cpfValidation.validateCPF(cpf);
 
 export const isCNPJValid = (cnpj) => cnpjValidation.validateCNPJ(cnpj);
+
+export const ageIsGreaterThan18Years = (birthDate) => {
+    return moment(birthDate).diff(new Date(), 'years') > 18;
+}
