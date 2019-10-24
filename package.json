@@ -1,10 +1,10 @@
 {
   "name": "ts-utils-format-and-validation-values",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple validation and format values for whatever utilizations ",
   "main": "index.js",
   "dependencies": {
-    "cnpj-validation": "^1.0.1",
+    "cnpj-validation": "^1.0.2",
     "cpf-validation": "^1.0.2",
     "moment": "^2.24.0"
   },
