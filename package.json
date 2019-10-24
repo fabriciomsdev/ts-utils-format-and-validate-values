@@ -1,6 +1,6 @@
 {
   "name": "ts-utils-format-and-validation-values",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A simple validation and format values for whatever utilizations ",
   "main": "index.js",
   "dependencies": {

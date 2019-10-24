@@ -33,7 +33,6 @@ export const removeSpecialCaracthersAndSpace = (string) => {
 
 export const trim = strTexto => strTexto.replace(/^s+|s+$/g, '');
 
-
 export const isCEP = (strCEP, blnVazio = false) => {
     const cepIsValid = strCEP != '' && strCEP != null && strCEP.length > 6;
 
